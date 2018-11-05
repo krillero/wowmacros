@@ -1,0 +1,668 @@
+Hello, everyone. Raziya here - since the old Nostalrius forums are down, this thread is no longer available for viewing over there. So, thanks to someone reposting a recent version of the [Redux] edition in another thread, I'm reposting that here so I can continue to maintain this guide. Check out the table of contents for a more thorough look into the thread.
+
+My interface: http://i.imgur.com/pK9NHGx.jpg
+
+Use the FIND command to skip to specific parts of the thread. The hotkey for this on my Windows 7 computer is ctrl + F. Try this, and punch in the index number of the section you want.
+
+TABLE OF CONTENTS
+1.0.0 - Why hunters are awesome
+2.0.0 - Macros
+2.1.0 - The goal of macros
+2.1.1 - Why they're important
+2.1.2 - What they can do
+2.1.3 - How they pertain to hunters
+2.2.0 - Basic Hunter macros
+2.2.1 - Auto Shot
+2.2.2 - Melee attacks
+2.2.3 - General shots
+2.3.0 - Basic pet macros
+2.3.1 - Pet Attack
+2.3.2 - Pet Follow
+2.3.3 - Pet Stay
+2.3.4 - Pet Growl
+2.4.0 - Miscellaneous macros
+2.4.1 - Feign Death
+2.4.2 - Shadowmeld
+2.4.3 - Deterrence / Monkey
+2.4.4 - Friend or Foe
+2.5.0 - CC macros
+2.5.1 - Scatter Shot
+2.5.2 - Feign Death / Trap
+2.5.3 - Freezing Trap
+2.6.0 - Advanced macros
+2.6.1 - Combat Aspect Swap / Aspect Situational
+2.6.2 - Situational Sting
+2.6.3 - All Sting macro
+2.6.4 - All-In-One pet maintenance
+2.7.0 - My personal macros
+2.7.1 - Multi-Shot
+2.7.2 - Wing Clip
+2.7.3 - Coordinates
+3.0.0 - Helpful resources
+3.1.0 - Addons
+3.1.1 - Attack Timers
+3.1.2 - Target Scanners
+3.1.3 - Value Meters
+3.1.4 - Equipment Addons
+3.1.5 - Quality of Life
+3.2.0 - Useful references
+3.2.1 - Petopia archive
+3.2.2 - Video tutorials
+3.2.3 - Hunter gameplay
+3.2.4 - Specializations
+
+1.0.0 - WHY HUNTERS ARE AWESOME
+Welcome to the Hunter class!
+
+Why should you play a hunter? If playing a versatile class with lots of crowd control, burst damage, and a high skill cap appeals to you, you may want to try a hunter.
+
+Do you get tired of spamming Frostbolt endlessly on a mage? Is coughing up hundreds of gold or lots of time for mana potions on a priest annoying? Does not staying in melee to DPS on a boss like Shazzrah annoy you on a rogue? Play a hunter!
+
+The simplest reason to enjoy hunter is that they're engaging. Despite what you may have heard about 'huntards,' we have an awful lot to think about. Deadzone, ammo, unique rotation, pet micro and other management, delicate but potent CC... yes, it's simple to learn to play a hunter, but it's a class that's difficult to master.
+
+Hunters have a unique relationship with their auto attacks since, to optimize damage, they time their skill shots between Auto Shots, ensuring that you always have something interesting to do during a boss fight.
+
+Farming gold is made easier. Whether you want to farm an instance like DM Trib or Mara solo, or roam the open world for herbs or ore, a hunter's skills, and their pet, will make it easy to stake your claim.
+
+Since hunters have a complete threat drop on a 30 second cooldown, we can do DPS pretty much whenever we want. No sitting out of fights, no decursing everyone else... sure, we get asked to kite here or there, and a couple of fights require us to use Tranquilizing Shot, but kiting is exciting! At least during a boss fight. And there aren't too many Tranq Shot fights, and they're a lot easier to be aware of than watching for a fast Wing Buffet to kick or pummel. Tranq Shot can't even be launched until a Frenzy effect is up - no possible chance for error unless you delay!
+
+If getting invested isn't your thing, leveling is made easier on a hunter with our pet and strong physical attacks launched from range. Literally AFK and Auto Shot if you don't care for speed.
+
+There is a huge variety of unique pets with special abilities to suit your needs. PvP pets with 1.0 attack speed, scorpids with a stacking poison, wind serpents with a ranged attack, wolves that can buff your attack damage... the list goes on.
+
+We have a lot of potential in PvP with zone control abilities like Frost Trap and burst combos. Sniper and support.
+
+Hunters are also able to provide excellent support in general. If you need to peel for a friend, scatter and trap their assailant. We can CC two targets at once with Wyvern Sting and Freezing Trap. We can pull very effectively for our tanks in a dungeon where pulling is made tricky, and we have the longest range in the game, at 41 yards with Hawk Eye.
+
+Regardless about how you may feel about what I've said so far, if it seems daunting or exciting, I encourage you to give hunters a try with an open mind anyway. It's easier to gauge your feelings in practice over theory.
+
+2.0.0 - MACROS
+I'm quite fond of macros and used them religiously on retail. Unfortunately, many of the commands I was so familiar with didn't function on Nostalrius, and I've had quite a hard time finding reliable sources of Vanilla macros online. Thankfully, though, I'm familiar with scripting, so I put together a few useful macros with bits and pieces I found all over the net.
+
+Even if you're not a hunter, you may benefit from this list of macros with a little bit of modification. So, browse at your leisure. None of the macros listed below require SuperMacro or some other addon to function.
+
+2.1.0 - THE GOAL OF MACROS
+In this section, we'll go over what we aim to accomplish by studying and using macros.
+
+2.1.1 - WHY THEY'RE IMPORTANT
+Macros essentially allow you to automate parts of your game. When you keep two keybinds which you could do through a single macro, you're wasting time by hitting a redundant keybind. They also allow you to act with precision in an intense situation, reducing the likelihood of human error. Whether you're new to the game or a veteran player, macros can improve your performance, often with little more hassle than copy + paste, and that is why they're important.
+
+2.1.2 - WHAT THEY CAN DO
+As stated, macros can reduce the number of keybinds you need, which can help to keep all your abilities within reach on a class that has a lot of abilities, like a hunter. They can make use of conditions to be situational, like only firing off in combat or when your enemy is a certain class, which saves you more time and thought. They can issue commands to pets so that you can coordinate your attacks with them. And, there's a lot more that macros can do, but let's just continue and get on to the specifics as soon as possible.
+
+2.1.3 - HOW THIS PERTAINS TO A HUNTER
+As I said a moment ago, hunters have a ton of keybinds. Macros, being able to reduce keybinds, are thus great for hunters. They'll improve your efficiency without a doubt, enabling you to target enemies faster, control your pet better, and improve your crowd control.
+
+2.2.0 - BASIC HUNTER MACROS
+Here we'll go over some basic macros. The scripts below can be lumped into other macros, increasing their functionality. I'll try to explain what each part does so you know what to copy into other macros, if you wish to do so.
+
+2.2.1 - AUTO SHOT
+As strange as it might sound to have a macro for something as simple as Auto Shot, this is actually pretty important. Auto Shot is the core of your abilities, used for everything from initiating on a new target (before Aimed Shot) to doing most of your damage in dungeons and raids.
+ 
+
+Raziya wrote:
+/script if GetUnitName("target")==nil then TargetNearestEnemy() end
+/run if CheckInteractDistance("target", 3) and (not PlayerFrame.inCombat) then AttackTarget() elseif not IsAutoRepeatAction(3) then CastSpellByName("Auto Shot") end
+
+
+This two-line macro will:
+- Automatically target anything in front of you if you don't have a target.
+- Begin using Auto Shot if you're at the appropriate distance to strike.
+- Prevent Auto Shot from being toggled off if you hit the key again.
+- Swap to melee auto attack if you're too close to Auto Shot.
+
+Two important functions in particular are added: The automatic targeting, which will allow you to basically point and shoot with your right mouse and Auto Shot keybind, and the function that prevents Auto Shot from being toggled off. Auto Shot is on its own cooldown, independent of the GCD, so it's important to be able to enable it on demand.
+
+You will need to modify this macro if you place it on any key other than 3 on your primary action bar. Please reference this screenshot:
+http://i.imgur.com/VGArn.jpg 
+
+And change the 3 in THIS part of the script:
+IsAutoRepeatAction(3)
+
+To the key corresponding with the location of the macro on your own interface.
+
+2.2.2 - MELEE ATTACKS
+This is just a basic macro to lump all of your offensive melee skills onto one bind.
+ 
+
+Raziya wrote:
+/script if (not PlayerFrame.inCombat) then AttackTarget() end
+/cast Raptor Strike
+/cast Counterattack
+/cast Mongoose Bite
+
+
+The first line will begin your melee attack, regardless of distance to target. The next three lines cast abilities. Because Raptor Strike and Mongoose Bite function differently, they can be used simultaneously. Counterattack and Mongoose Bite cannot be used simultaneously, but Counterattack is a priority, so it's listed first.
+
+2.2.3 - GENERAL SHOTS
+Consider the macro below to be a default for all of your skill shots. This example casts Serpent Sting.
+ 
+
+Raziya wrote:
+/script if GetUnitName("target")==nil then TargetNearestEnemy() end
+/cast Serpent Sting
+
+
+The first line is automatic targeting. The second line will cast your ability.
+
+If you also wish to initiate your Auto Shot alongside your other shots, as I prefer, use the following macro instead... if you have an addon that allows longer than 255 characters.
+ 
+
+Raziya wrote:
+/script if GetUnitName("target")==nil then TargetNearestEnemy() end
+/cast Arcane Shot(rank 1)
+/run if CheckInteractDistance("target", 3) and (not PlayerFrame.inCombat) then AttackTarget() elseif not IsAutoRepeatAction(3) then CastSpellByName("Auto Shot") end
+
+
+Just don't forget to change "IsAutoRepeatAction(3)" to correspond with your interface again.
+
+If you don't have an addon like that, use this one instead. The following shorter script will attempt to enable your Auto Shot, but will not switch to melee attack if you're too close to your target.
+ 
+
+Raziya wrote:
+/script if GetUnitName("target")==nil then TargetNearestEnemy() end
+/cast Arcane Shot(rank 1)
+/script if not IsAutoRepeatAction(3) then CastSpellByName("Auto Shot"); end
+
+
+2.3.0 - BASIC PET MACROS
+Controlling your pet effectively is quite important. Your pet can aggro mobs, establish CC or break it, and ought to be doing damage on just the right target, or be in the right place to do that damage. So, this section will go over a few basic pet control macros and what you can do with them.
+
+2.3.1 - PET ATTACK
+The following macro is a simple macro that'll send your pet at your target.
+ 
+
+Raziya wrote:
+/script if GetUnitName("target")==nil then TargetNearestEnemy() end
+/script CastPetAction(2);
+/script CastPetAction(10);
+/script PetAttack(target)
+/cast Charge
+/cast Dash
+
+
+This macro's six lines do the following:
+- Automatic targeting.
+- Pet will follow you when disengaged from combat.
+- Pet will act passively when disengaged from combat.
+- Pet will attack the target specified.
+- If available, your boar will Charge the target specified.
+- If Charge isn't available or possible, Dash will be enabled instead.
+
+One of the most useful scripts in this macro is the CastPetAction script. Your pet's action bar has 10 abilities on it, and Follow is on 2 by default and Passive is on 10 by default. Since Attack is ordered after these two lines, your pet will attack your target. The reason for setting your pet to follow and passive is that direct control over your pet's actions will help to prevent mistakes. When you need to give orders to your pet, it's best to have it under your complete control, so setting it to Follow and Passive every time you give an order is a safe default.
+
+The final two lines contribute to your control. If you leave Dash on auto cast, your pet will spam it on cooldown, and that wastes focus and is likely to either prevent your pet from catching up to a target you need to catch, or get your pet killed if you need Dash to pull it back to you faster. By ordering Dash on attack, you ensure that your pet will make the fastest run to a new enemy target.
+
+2.3.2 - PET FOLLOW
+When you loose your pet on something, you're going to want some way to bring it back to you, for instance if the enemy flees and your pet will attract more enemies if it stays on that enemy. This macro does that:
+ 
+
+Raziya wrote:
+/script PetFollow("Raziya")
+/script CastPetAction(10);
+/cast Dash
+
+
+It's a very straightforward macro. Just change "Raziya" in between the parentheses to your name. The second line causes your pet to be passive, provided the passive command is in its default position on your pet's action bar, at 10. The third line will make your pet Dash back to you, which is convenient if you need to pull it out of danger quickly.
+
+2.3.3 - PET STAY
+Telling your pet to stay has various uses. You can use it to guard a flag, or fool people by Shadowmelding in a different bush than the one your pet is in, or maybe you need to leave it behind while you go pull the acolytes out of a Ziggurat in Strath UD. Whatever the case, having a keybind for your pet to stay is useful. Here it is:
+ 
+
+Raziya wrote:
+/script CastPetAction(3);
+/script CastPetAction(10);
+
+
+The first line will tell your pet to stay. The second line will make your pet act passively.
+
+2.3.4 - PET GROWL
+You'll probably have your Growl turned off sometimes, like in a dungeon or for PvP. If an enemy rushes for your healer, you can send your pet at the enemy, order it to Growl, and then send it back at the mobs near the tank, effectively bringing the mob back to the tank spot without having to stop your DPS.
+ 
+
+Raziya wrote:
+/cast Growl
+/run local i,g=1,0 while GetSpellName(i,"pet") do if GetSpellName(i,"pet")=="Growl" then g=i end i=i+1 end local _,y = GetSpellAutocast(g,"pet") if not y then ToggleSpellAutocast(g,"pet") end
+
+
+The first line commands your pet to Growl. The second line turns its auto cast on. If you want a script to turn Growl's auto cast off, one contributor posted this in the comments on this thread:
+ 
+
+Etrigan wrote:
+/script local i,g=1,0 while GetSpellName(i,"pet") do if GetSpellName(i,"pet")=="Growl" then g=i end i=i+1 end local _,y = GetSpellAutocast(g,"pet") if (y and UnitFactionGroup("target")) then ToggleSpellAutocast(g,"pet") end
+
+
+2.4.0 - MISCELLANEOUS MACROS
+Here are just a couple of macros which don't fall under other categories. One of them is Night Elf-specific.
+
+2.4.1 - FEIGN DEATH
+This macro will ensure that the only time you ever use Feign Death is while you're in combat.
+ 
+
+Raziya wrote:
+/script if UnitAffectingCombat("player") then CastSpellByName("Feign Death") end
+
+
+On its own, it's nothing special, but this script will be used in combination with other abilities later.
+
+2.4.2 - SHADOWMELD
+Shadowmeld is a great skill that can help you stay alive or set up kills, especially as a hunter.
+ 
+
+Raziya wrote:
+/run local i,x=1,0 while UnitBuff("player",i) do if UnitBuff("player",i)=="Interface\\Icons\\Ability_Ambush" then x=1 end i=i+1 end if x==0 then CastSpellByName("Shadowmeld") else end
+
+This will prevent you from toggling your Shadowmeld off. I don't know any sort of macro that would do the same for Prowl, so... sorry!
+
+Edit: Thanks to @Oakenlix I now have a macro that can be safely spammed and will Prowl your cat while you Shadowmeld. Check this out:
+
+  Quote
+/run local i,x=1,0 while UnitBuff("player",i) do if UnitBuff("player",i)=="Interface\\Icons\\Ability_Ambush" then x=1 end i=i+1 end if x==0 then CastSpellByName("Shadowmeld") CastPetAction(7) else end
+
+I tested it just now and it worked. Remember, that "CastPetAction(7)" function on the end means you need to have Prowl on the 7th spot on your pet's action bar! It goes from left to right. Move Prowl or change the script to suit your needs.
+
+2.4.3 - DETERRENCE / MONKEY
+
+Raziya wrote:
+/cast Deterrence
+/run local i,x=1,0 while UnitBuff("player",i) do if UnitBuff("player",i)=="Interface\\Icons\\Ability_Hunter_AspectOfTheMonkey" then x=1 end i=i+1 end if x==0 then CastSpellByName("Aspect of the Monkey") else end
+
+
+This Deterrence macro will cast Aspect of the Monkey and Deterrence. Aspect of the Monkey will not be toggled off.
+
+2.4.4 - FRIEND OR FOE
+This script will cast one spell if your target is friendly. It'll cast a different spell if your target is hostile.
+ 
+
+Raziya wrote:
+/script if UnitIsFriend("player", "target") then CastSpellByName("Aspect of the Pack") else CastSpellByName("Aspect of the Cheetah") end
+
+
+This example will cast Pack if your target is friendly, but Cheetah under any other circumstances. That way, if you're in a group and you want to give Pack to people, just click an ally and you don't have to reserve another keybind for Pack!
+
+You can modify this to use items. For instance, here's my Scare Beast macro:
+ 
+
+Raziya wrote:
+/script if GetUnitName("target")==nil then TargetNearestEnemy() end
+/script if UnitIsFriend("player", "target") then UseContainerItem(0, 16) else CastSpellByName("Scare Beast") end
+
+
+If targeting an ally, this will use the item in the lower-right corner of my backpack. That's where I keep my bandages. Experiment with the UseContainerItem parameters as needed.
+
+2.5.0 - CC MACROS
+Hunters have incredible crowd control, but several of our abilities can be tricky to use, such as traps, which require we be out of combat. I put together these macros to help make CC more easily maintained.
+
+2.5.1 - SCATTER SHOT MACRO
+This macro is awesome for abilities like Scatter Shot or Wyvern Sting.
+ 
+
+Raziya wrote:
+/script if GetUnitName("target")==nil then TargetNearestEnemy() end
+/script if UnitExists("pettarget") and UnitIsUnit("target", "pettarget") then PetPassiveMode() CastPetAction(3); else end
+/cast Scatter Shot
+
+
+After auto targeting, this macro will check if you and your pet are attacking the same target. If so, your pet will be set to passive and stay at its current position. If not, your pet will continue attacking its target.
+
+Just remember to give the attack order again after your enemy has recovered.
+
+2.5.2 - FEIGN DEATH / TRAP
+Since hunters can't use traps in combat, we need to rely on Feign Death to drop a trap in a pinch. This macro has proven to be very useful:
+ 
+
+Raziya wrote:
+/cast Immolation Trap
+/script if UnitAffectingCombat("player") then CastSpellByName("Feign Death") end
+
+
+You need to hit this macro at least twice regardless of script order, so you might as well have your trap as the first line so your macro shows the tooltip for the trap, rather than Feign Death.
+
+2.5.3 - FREEZING TRAP
+The Freezing Trap can be broken by your pet too, so I went ahead and did this to mine:
+ 
+
+Raziya wrote:
+/cast Freezing Trap
+/script if UnitAffectingCombat("player") then CastSpellByName("Feign Death") end
+/script if UnitExists("pettarget") and CheckInteractDistance("target", 3) and UnitIsUnit("target", "pettarget") then PetPassiveMode(); else end
+
+
+Feign Death will be used if you're in combat. If you and your pet are targeting the same thing, and the enemy is close to you, then your pet will be pulled off of the enemy. The only drawback is that you'd need to be targeting the enemy you intend to trap, but in a 1v1 this works nicely. So, world PvP.
+
+2.6.0 - ADVANCED MACROS
+Here we get into some longer, cooler macros than the basic ones mentioned before this point. All of them will be focused on reducing keybinds based on situational parameters.
+
+2.6.1 - COMBAT ASPECT SWAP / ASPECT SITUATIONAL
+Aspect of the Hawk and Aspect of the Monkey are both important abilities to have bound, especially for a PvPer or a Ravager, but you'd need two keybinds. The following macros put them in one keybind.
+
+The first solution I came up with was a swap macro:
+ 
+
+Raziya wrote:
+/run local i,x=1,0 while UnitBuff("player",i) do if UnitBuff("player",i)=="Interface\\Icons\\Spell_Nature_RavenForm" then x=1 end i=i+1 end if x==0 then CastSpellByName("Aspect of the Hawk") else CastSpellByName("Aspect of the Monkey") end
+
+
+This macro uses a similar structure to the Shadowmeld macro. If you're in no aspect or in any other aspect, it'll toggle on Aspect of the Hawk. If you're in Aspect of the Hawk, it'll switch to Aspect of the Monkey.
+
+The second solution I came up with was a distance check:
+ 
+
+Raziya wrote:
+/run if CheckInteractDistance("target", 3) then CastSpellByName("Aspect of the Monkey") else CastSpellByName("Aspect of the Hawk") end
+
+
+This macro uses a similar structure to the Auto Shot macro. If you have no target or if your target is far away from you, it'll cast Aspect of the Hawk. If your target is close to you, it'll cast Aspect of the Monkey.
+
+Both macros function differently, but to the same end. Take whichever you like, if either.
+
+2.6.2 - SITUATIONAL STING
+You're never going to use Scorpid Sting on a mage, right? Or Viper Sting on a rogue. So, here's a macro that casts the right sting depending on the class of your target:
+ 
+
+Raziya wrote:
+/script if GetUnitName("target")==nil then TargetNearestEnemy() end
+/script class=UnitClass("target"); if ((class=="Rogue") or (class=="Warrior")) then CastSpellByName("Scorpid Sting"); else CastSpellByName("Viper Sting"); end
+
+It also seems to work on NPCs. NPCs with mana get Viper Sting, and NPCs without mana get Scorpid Sting. Reportedly a few people have had trouble with it on druids shapeshifted into cat or bear form, but I think that may have been an issue on Nostalrius only. On Kronos II I've confirmed that this works properly all the time.
+
+2.6.3 - ALL-STING MACRO
+@Jellydonut Thanks for the idea and initial macro structure! This macro will use Serpent Sting on NPCs, Scorpid Sting on rogues and warriors, and Viper Sting on all other classes.
+
+  Quote
+/script class=UnitClass("target") c=CastSpellByName; if UnitIsPlayer("target") and ((class=="Rogue") or (class=="Warrior")) then c("Scorpid Sting") elseif UnitIsPlayer("target") then c("Viper Sting") else c("Serpent Sting"); end
+
+I wouldn't recommend using this macro at 60. You will want to put Serpent Sting on enemy players and use Viper Sting on NPCs at times. However, it's convenient for leveling if you can't be arsed with all the keybinds hunters have.
+
+2.6.4 - ALL-IN-ONE PET MAINTENANCE
+We have a lot of abilities that affect our pet. The following macro combines feed pet, call pet, dismiss pet, and revive pet.
+ 
+
+Raziya wrote:
+/run local c=CastSpellByName if UnitExists("pet") then if UnitHealth("pet")==0 then c("Revive Pet") elseif GetPetHappiness()~=nil and GetPetHappiness()~=3 then c("Feed Pet") PickupContainerItem(0, 13) else c("Dismiss Pet") end else c("Call Pet") end
+
+
+If your pet is dismissed, this macro will call it. If your pet is called and happy, this macro will dismiss it. If your pet is called and unhappy, this macro will feed it the item in the bottom left corner of your backpack. If your pet's dead, it'll be revived.
+
+You can change the bagslot this macro checks for food in by changing the "PickupContainerItem(0, 13)" part. The bags count from 0-4, starting from the Backpack, so 0, 13 there means the 13th slot in the backpack.
+
+2.7.0 - MY PERSONAL MACROS
+Due to popular demand, I'm dropping a few of my own personal macros here. See details below:
+
+2.7.1 - MULTI-SHOT
+
+Raziya wrote:
+/script if GetUnitName("target")==nil then TargetNearestEnemy() end
+/cast Multi-Shot(rank 1)
+/cast Volley
+/script if not IsAutoRepeatAction(3) then CastSpellByName("Auto Shot"); end
+
+
+This is a simple fall-through macro. If you hit it once, you target anything up to 40 yards in front of you, cast Multi-Shot, and toggle your Auto Shot on. Hit it again while Multi-Shot is on cooldown, and you'll cast Volley. Alternatively, if Multi never goes off, Volley will be selected immediately.
+
+Unless your Flare is on cooldown and you have the mana to spare to take a rogue out of invisibility, I don't really think you'll have any urgency to use Volley until you're AoEing something, and Multi-Shot is often the priority, hence the use of this macro.
+
+Remember to adjust the Auto Shot script according to your interface. See section 2.2.1 for more information.
+
+2.7.2 - WING CLIP
+
+Raziya wrote:
+/script if (not PlayerFrame.inCombat) then AttackTarget() end
+/cast Counterattack(Rank 1)
+/cast Wing Clip
+/cast Wing Clip(Rank 2)
+/cast Wing Clip(Rank 1)
+
+
+This is a fall-through macro for Wing Clip. If you happen to be super low on mana for some reason and can't use maximum rank Wing Clip, a lower rank will be used instead. Counterattack is a priority over all ranks of Wing Clip.
+
+2.7.3 - COORDINATES
+
+Raziya wrote:
+/script SetMapToCurrentZone() local x,y=GetPlayerMapPosition("player") DEFAULT_CHAT_FRAME:AddMessage(format("%s, %s: %.1f, %.1f",GetZoneText(),GetSubZoneText(),x*100,y*100))
+
+
+This macro tells you your current coordinates. I keep it around to help mark locations on my map using Cartographer's note system.
+
+If I get requests for any other macros, I will include them here.
+
+3.0.0 - HELPFUL RESOURCES
+There are some addons and other web pages I'd strongly recommend looking into.
+
+3.1.0 - ADDONS
+Some of you love having tons of addons, and some of you are total minimalists. Personally, I don't like having my screen filled to the brim with crap, so I keep my addon use minimal, but I've selected a few that could really help you out.
+
+Here's the site I linked to. I'm not sure if EVERY addon here is safe, but I've scanned the ones mentioned here and they were all safe. Have fun browsing, but I'd suggest you continue to be cautious.
+
+ADDON DATABASE: http://addons.us.to/home 
+
+If you need something to extract the addons from their .zip files, I prefer 7-zip for the task.
+
+.ZIP EXTRACTOR: http://www.7-zip.org/ 
+
+3.1.1 - ATTACK TIMERS
+Timers for your attacks.
+
+This first addon is absolutely mandatory, if you ask me. If there's ever a point where you need to move and DPS, whether you're kiting or just running out of Rain of Fire, if you want to do the most damage, you need to know exactly when to stop and shoot again. Rais is an addon that'll allow you to do just that. Not only that, but your DPS as a hunter depends on how well you can time your skill shots between Auto Shots. You may be able to do just fine firing off shots right after autos go out, but it's not always obvious, and you may want to time your Multi Shot at the end of Auto Shot's cooldown, not at the beginning.
+
+This addon also provides a cast timer for your Aimed Shot. This can further assist you with timing yourself properly. Trust me on this one, guys, it's really, really useful and you should totally get it.
+
+As far as I know, this addon cannot be customized.
+
+DOWNLOAD: http://www.mediafire.com/file/lthyfecdl ... toShot.zip 
+
+If you prefer more functionality, Attack Bar is an alternative, but it doesn't time Auto Shot quite as well as Rais, so I don't really like this for timing Auto Shot. I keep it around in case I want to melee something and Auto Shot at the same time. Melee while Auto Shot is on cooldown, Auto Shot while melee is on cooldown. It's also useful during encounters where you have to stack up, such as moving through the BWL Suppression Room or piling atop a Lava Surger.
+
+Type "/abar" for a list of commands.
+
+DOWNLOAD: http://addons.us.to/addon/attackbar 
+
+OmniCC is another cool timer addon that's surely useful for any class, but on a hunter it's especially good for timing your abilities with precision. It shows the cooldowns for your abilities on your bars.
+
+Type "/omnicc" for a list of commands.
+
+DOWNLOAD: http://addons.us.to/addon/omnicc 
+
+3.1.2 - TARGET SCANNERS
+These addons will give you information about your target.
+
+MobInfo2 is a great addon that'll give you tons of useful information, and I strongly recommend giving it a try.
+
+Type "/mi2" to bring up the options menu.
+
+DOWNLOAD: http://addons.us.to/addon/mobinfo2-0 
+
+Natur EnemyCastBars is another cool addon that'll tell you what your enemy is casting, among other stuff.
+
+Type "necb" to bring up the options menu.
+
+DOWNLOAD: http://addons.us.to/addon/cenemycastbarnatur 
+
+Another useful target scanner addon to have is GFW_HuntersHelper, and it'll make taming beasts and teaching new abilities to your pet infinitely easier. It provides a database of all beasts with a certain ability so you can go out on safari without having to reference a Vanilla database or something.
+
+Type "/hh" for a list of commands.
+
+DOWNLOAD: http://addons.us.to/addon/gfwhuntershelper 
+
+3.1.3 - VALUE METERS
+Damage meters, threat meters.
+
+This here's a basic addon that'll tell you your damage. It's kind of inaccurate for party members, but it's nice to have.
+
+Type "/dm cmd" for a list of commands.
+
+DOWNLOAD: http://addons.us.to/addon/damagemeters 
+
+A threat meter is pretty important too. You should watch it to know when to Feign Death, and especially to see if your Feign Death is ever resisted.
+
+Type "/ktm" for a list of commands.
+
+DOWNLOAD: http://addons.us.to/addon/klhthreatmeter-0 
+
+3.1.4 - EQUIPMENT ADDONS
+These addons will help you determine equipment bonuses and swap equipment more easily.
+
+SuperInspect allows you to inspect others with a hotkey, or inspect yourself, and it'll show you bonus stats from items at a glance.
+
+Type "/superinspect" for a list of commands.
+
+DOWNLOAD: http://addons.us.to/addon/superinspect-0 
+
+Outfitter will allow you to quickly swap between sets of gear. This is especially nice if you want to Feign Death and swap trinkets in the middle of a boss fight, or if you have a set of two one-handers you'd swap out for a Ravager.
+
+DOWNLOAD: http://addons.us.to/addon/outfitter 
+
+3.1.5 - QUALITY OF LIFE
+These aren't necessary, but they can make it easier on you.
+
+LazyPig is probably the greatest QOL addon you could possibly get. Auto dismount, automatic need / greed / pass on ZG coins, auto accept summon, BG queue pop, party invite, extended camera distance, remove Blessing of Salvation, automatically sells your trash at a vendor... the list goes on. You can customize it a lot, too.
+
+Type "/lp" to bring up an options menu.
+
+DOWNLOAD: http://addons.us.to/addon/lazypig 
+
+If you have any sort of gathering profession, or if you need to keep track of rare spawns like pets or the Rhok'delar demons, mark the locations of stuff on your map with this addon. Cartographer has you covered.
+
+You'll find an options menu integrated into your world map.
+
+DOWNLOAD: http://addons.us.to/addon/cartographer-0 
+
+If you receive a lot of mail, or send mail often, GMail will make it so much easier to send or receive mail.
+
+As far as I know, this addon cannot be customized.
+
+DOWNLOAD: http://addons.us.to/addon/gmail 
+
+If you're peeved that you don't get to see how much items vendor for in Vanilla, get this addon. You'll need to bring an item to the vendor in order to learn how much it's worth, but once you've done that, you can see the price from then on. As an additional function, you can set a keybind to bring up a menu that'll tell you how much all of the stuff in your bags is worth. The keybind is called "Toggle Inventory Sell List."
+
+As far as I know, this addon cannot be customized.
+
+DOWNLOAD: http://addons.us.to/addon/sellvalue 
+
+Do you ever just want to chill out in Ironforge or Orgrimmar and share music or silly videos with friends? Got that one friend who does YouTube videos? Want to click that link to the twitch stream some random posted in world chat? Want to ask friends for links to other cool addons in-game? Get URLCopy.
+
+As far as I know, this addon cannot be customized.
+
+DOWNLOAD: http://addons.us.to/addon/urlcopy-0 
+
+Finally, if you hate the fact that addons spam the crap out of you after initializing, get this addon. It'll clean out all the addon spam after you log in, leaving your chat log nice and clear.
+
+As far as I know, this addon cannot be customized.
+
+DOWNLOAD: http://addons.us.to/addon/stopthespam 
+
+3.2.0 - USEFUL REFERENCES
+Important webpages you might want to have a look at.
+
+3.2.1 - PETOPIA ARCHIVE
+If GFW_HuntersHelper isn't your thing, there's an archived Petopia page telling you all about pet skills. Here's a link to it:
+
+http://web.archive.org/web/20070406191702/http://petopia.brashendeavors.net/html/articles/skills_main.shtml
+
+Check the sidebar for more information.
+
+3.2.2 - VIDEO TUTORIALS
+I started a hunter tutorials series on Nostalrius 1.0. I continued to make new tutorials on Kronos II, and now that I'm back on Nostalrius 2.0, will continue to make tutorials there.
+
+COMBAT POSITIONING:
+BASIC MOVEMENT: https://www.youtube.com/watch?v=InxSzB1pmx0&list=PLr3fVRF0B2Vm_Ebt1kNSmwMKa-VNphCxc&index=1
+CHEETAH AND CC: https://www.youtube.com/watch?v=uXXDLZHllP0&list=PLr3fVRF0B2Vm_Ebt1kNSmwMKa-VNphCxc&index=2
+KITING AND JUMPSHOTS: https://www.youtube.com/watch?v=njLbjW0FJGw&list=PLr3fVRF0B2Vm_Ebt1kNSmwMKa-VNphCxc&index=3
+
+DEALING DAMAGE:
+BASIC DAMAGE: https://www.youtube.com/watch?v=lMHwlMpqHnQ&index=4&list=PLr3fVRF0B2Vm_Ebt1kNSmwMKa-VNphCxc
+BURST ROTATION: https://www.youtube.com/watch?v=8d5SzT2Xl_8&index=5&list=PLr3fVRF0B2Vm_Ebt1kNSmwMKa-VNphCxc
+THE RAVAGER: https://www.youtube.com/watch?v=e70dtOAUPfc&list=PLr3fVRF0B2Vm_Ebt1kNSmwMKa-VNphCxc&index=10 *
+
+ABILITY OPTIMIZATION:
+THE HUNTER'S TOOLKIT: https://www.youtube.com/watch?v=vvKVTPUxJp4&list=PLr3fVRF0B2Vm_Ebt1kNSmwMKa-VNphCxc&index=11
+SPECIALIZATIONS: https://www.youtube.com/watch?v=iMNfvYyTfLs&list=PLr3fVRF0B2Vm_Ebt1kNSmwMKa-VNphCxc&index=12
+
+PET OPTIMIZATION:
+VANILLA PETS: https://www.youtube.com/watch?v=rw5ArtwO4h8&list=PLr3fVRF0B2Vm_Ebt1kNSmwMKa-VNphCxc&index=13
+BLOODAXE WORG: https://www.youtube.com/watch?v=4yQT0ZXV2Qc&index=7&list=PLr3fVRF0B2Vm_Ebt1kNSmwMKa-VNphCxc
+
+FARMING GOLD:
+MARA [REDUX]: https://www.youtube.com/watch?v=VozAoQ3gPCQ&index=14&list=PLr3fVRF0B2Vm_Ebt1kNSmwMKa-VNphCxc
+MARAUDON FARM: https://www.youtube.com/watch?v=fLaWkE-5aBY&list=PLr3fVRF0B2Vm_Ebt1kNSmwMKa-VNphCxc&index=6
+MARAUDON ATTUNEMENT: https://www.youtube.com/watch?v=hvZnhrQr-Yg&list=PLr3fVRF0B2Vm_Ebt1kNSmwMKa-VNphCxc&index=8
+DIRE MAUL TRIBUTE: https://www.youtube.com/watch?v=sHyPXP6bZ_g&index=9&list=PLr3fVRF0B2Vm_Ebt1kNSmwMKa-VNphCxc **
+
+* - Works differently than it did on Kronos. Still works on Nostalrius, just more niche!
+** - Confirmed to be impossible on Nostalrius.
+
+3.2.3 - HUNTER GAMEPLAY
+If you don't care about all this theory crap and just want to see some hunter gameplay, I started another video series on Kronos II that'll go through every dungeon up to 60. I don't always play optimally, so if you go have a look and want to learn something, spot my mistakes, learn from them before you make them, yourself. My goal is to see Naxxramas someday, but regardless of whether or not that happens, I'll do what I can.
+
+Right now, only Wailing Caverns, Deadmines, Blackfathom Deeps, Shadowfang Keep, Stockades, and Razorfen Kraul are out.
+
+WAILING CAVERNS: https://www.youtube.com/watch?v=owRheF067fI
+DEADMINES: https://www.youtube.com/watch?v=vDXMQTSH6uc
+BLACKFATHOM DEEPS: https://www.youtube.com/watch?v=wiXkCrLUqpU
+SHADOWFANG KEEP: https://www.youtube.com/watch?v=fJvnjPFTtcY
+STOCKADES: https://www.youtube.com/watch?v=5u8Zt8SJXRQ
+RAZORFEN KRAUL: https://www.youtube.com/watch?v=m_0cTR8EjGo
+GNOMEREGAN: Coming soon™!
+
+Not sure you want to watch? Have a short trailer for the series to get a better idea.
+https://www.youtube.com/watch?v=fcrfii3s6WY
+
+I started a new series on leveling. I mean, it MIGHT become a series, maybe not, depends, I guess. Anyway, here's Shadowglen:
+https://www.youtube.com/watch?v=_jKagWrvBs4
+
+I came out recently with an update that contains a game of Alterac Valley. It's the only battleground video I have up right now, so if you want to see more, let me know and I'll go do some!
+https://www.youtube.com/watch?v=9UU-53NXUZA
+
+3.2.4 - SPECIALIZATIONS
+See the "Specializations" tutorial for more details.
+SPEC 1: 31/20/0 BM/MM Leveling
+MAIN: http://db.vanillagaming.org/?talent#cV0G0xgRtVVkhx
+VARIANT 1: http://db.vanillagaming.org/?talent#cV0G0xgRtxVkhx
+VARIANT 2: http://db.vanillagaming.org/?talent#cx0G0xgRtVVkhx
+VARIANT 3: http://db.vanillagaming.org/?talent#cx0GztgotVVkhx
+
+SPEC 2: 31/0/20 BM/Surv ???
+MAIN: http://db.vanillagaming.org/?talent#cx0G0xgRtZI0wbRh
+VARIANT 1: http://db.vanillagaming.org/?talent#cx0G0xgRtZI0wio
+VARIANT 2: http://db.vanillagaming.org/?talent#ce0MztgotZI0wbRh
+VARIANT 3: http://db.vanillagaming.org/?talent#cx0G0ggoxZcxbwohz
+VARIANT 4: http://db.vanillagaming.org/?talent#ce0M0xgoZVVoZI0fVo
+
+SPEC 3: 21/30/0 BM/MM PvP
+MAIN: http://db.vanillagaming.org/?talent#ce0M0xxoZxVRhthx
+VARIANT 1: http://db.vanillagaming.org/?talent#ce0M0xxoZVVRhthx
+VARIANT 2: http://db.vanillagaming.org/?talent#cE000xxoZVVRhthx
+VARIANT 3: http://db.vanillagaming.org/?talent#ce0MztgobxVkhth
+VARIANT 4: http://db.vanillagaming.org/?talent#cE0MztgoZxVkhth
+
+SPEC 4: 20/31/0 BM/MM PvE
+MAIN: http://db.vanillagaming.org/?talent#cE000xxZVVRhtht
+VARIANT 1: http://db.vanillagaming.org/?talent#cE000xxZViohtht
+VARIANT 2: http://db.vanillagaming.org/?talent#ce0M0xxZViohtht
+
+SPEC 5: 0/31/20 MM/Surv PvE
+MAIN: http://db.vanillagaming.org/?talent#cZVVRhthtILbbRh
+VARIANT 1: http://db.vanillagaming.org/?talent#cZVVRhthtIx0Voh
+VARIANT 2: http://db.vanillagaming.org/?talent#cZxVRhthtI0VVoh
+VARIANT 3: http://db.vanillagaming.org/?talent#cZxVRhthxcxbqohz
+
+SPEC 6: 7/31/13 Hybrid PvE
+MAIN: http://db.vanillagaming.org/?talent#cx0MZVVRhthtI0rbo
+
+SPEC 7: 0/21/30 MM/Surv PvP
+MAIN: http://db.vanillagaming.org/?talent#cZxVkhtZI0ibRhux
+VARIANT 1: http://db.vanillagaming.org/?talent#cZxVkhxZI0ibRhut
+VARIANT 2: http://db.vanillagaming.org/?talent#cZVVkhxZI0ibRhut
+VARIANT 3: http://db.vanillagaming.org/?talent#cbZVVkhthZIxbbRhu
+
+SPEC 8: 20/0/31 BM/Surv ???
+MAIN: http://db.vanillagaming.org/?talent#cE000xxZZI0ibRhut
+VARIANT 1: http://db.vanillagaming.org/?talent#cE000xxoZZI0ibRhux
+VARIANT 2: http://db.vanillagaming.org/?talent#cxV0zxgoZZIxbiRhz
+
+SPEC 9: Hybrid Farm
+MAIN: http://db.vanillagaming.org/?talent#cx0GbZVVkhtZI0wbkM
+VARIANT 1: http://db.vanillagaming.org/?talent#cx0GbZVVkhtZI0ibR
+VARIANT 2: http://db.vanillagaming.org/?talent#cx0GbZVVkhtZI0wboh
+
+--------------------------------------------------------------------------

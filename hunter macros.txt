@@ -1,0 +1,52 @@
+Auto shot
+---------------
+/script if GetUnitName("target")==nil then TargetNearestEnemy() end
+/run if CheckInteractDistance("target", 3) and (not PlayerFrame.inCombat) then AttackTarget() elseif not IsAutoRepeatAction(3) then CastSpellByName("Auto Shot") end
+
+
+
+Melee Attacks
+---------------
+/script if (not PlayerFrame.inCombat) then AttackTarget() end
+/cast Raptor Strike
+/cast Counterattack
+/cast Mongoose Bite
+
+
+
+Serpent shot
+------------------
+/script if GetUnitName("target")==nil then TargetNearestEnemy() end
+/cast Serpent Sting
+
+
+
+Pet attack
+-------------------
+/script if GetUnitName("target")==nil then TargetNearestEnemy() end
+/script CastPetAction(2);
+/script CastPetAction(10);
+/script PetAttack(target)
+/cast Charge
+/cast Dash
+
+
+
+Pet follow
+---------------
+/script PetFollow("INSERTPLAYERNAMEHERE")
+/script CastPetAction(10);
+/cast Dash
+
+
+
+Pet stay
+---------------
+/script CastPetAction(3);
+/script CastPetAction(10);
+
+
+
+All-in-one pet maintenance
+--------------------------
+/run local c=CastSpellByName if UnitExists("pet") then if UnitHealth("pet")==0 then c("Revive Pet") elseif GetPetHappiness()~=nil and GetPetHappiness()~=3 then c("Feed Pet") PickupContainerItem(0, 13) else c("Dismiss Pet") end else c("Call Pet") end
