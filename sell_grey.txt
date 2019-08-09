@@ -1,0 +1,3 @@
+Paste this short string of text into a macro to create a button that will sell all your gray items with one click and report back how much coin it made you. (I've been using this macro for 15 years)
+
+/run local c,i,n,v=0;for b=0,4 do for s=1,GetContainerNumSlots(b)do i={GetContainerItemInfo(b,s)}n=i[7]if n and string.find(n,"9d9d9d")then v={GetItemInfo(n)}q=i[2]c=c+v[11]*q;UseContainerItem(b,s)print(n,q)end;end;end;print(GetCoinText(c))
