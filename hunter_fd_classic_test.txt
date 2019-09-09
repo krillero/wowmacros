@@ -1,0 +1,6 @@
+#showtooltip Freezing Trap
+/cleartarget
+/petpassive
+/cast [combat] Feign Death
+/cast Freezing Trap
+/petpassive
